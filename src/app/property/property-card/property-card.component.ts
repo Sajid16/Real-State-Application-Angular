@@ -7,6 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PropertyCardComponent implements OnInit {
 
+  Property: any = {
+    id: 1,
+    Name: "Birla House",
+    Type: "Home",
+    Price: 13000
+  }
+
   constructor() { }
 
   ngOnInit(): void {
