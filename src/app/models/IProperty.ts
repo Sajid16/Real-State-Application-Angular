@@ -2,5 +2,6 @@ export interface Property{
   id : number,
   Name : string,
   Type : string,
-  Price : number
+  Price : number,
+  PropertyFor: number
 }

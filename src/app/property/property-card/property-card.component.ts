@@ -12,7 +12,8 @@ export class PropertyCardComponent implements OnInit {
     id: 0,
     Name: '',
     Type: '',
-    Price: 0
+    Price: 0,
+    PropertyFor: 0
   };
   constructor() { }
 
