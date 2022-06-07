@@ -8,6 +8,8 @@ import { PropertyListComponent } from './property/property-list/property-list.co
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AddPropertyComponent } from './property/add-property/add-property.component';
+import { PropertyDetailComponent } from './property/property-detail/property-detail.component';
+import { PropertyRentComponent } from './property/property-rent/property-rent.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { AddPropertyComponent } from './property/add-property/add-property.compo
     PropertyCardComponent,
     PropertyListComponent,
     NavBarComponent,
-    AddPropertyComponent
+    AddPropertyComponent,
+    PropertyDetailComponent,
+    PropertyRentComponent
   ],
   imports: [
     BrowserModule,
